@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background: #faf9f6;
+    color: #222;
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px 35px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+nav {
+    text-align: center;
+    padding: 18px;
+    background: #1d2a3a;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 16px;
+}
+
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.photo-placeholder {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background: #ddd;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+}
+
+
+.hero h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+
+input {
+    margin-top: 25px;
+    width: 60%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+
+section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+
+section h2 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+
+.cards div {
+    background: white;
+    padding: 35px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+
+.document {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #1d2a3a;
+    color: white;
+}
